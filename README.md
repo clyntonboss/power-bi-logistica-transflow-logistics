@@ -182,4 +182,4 @@ Essa estrutura permite maior eficiência analítica e melhor performance do mode
 
 # 📸 Preview do Dashboard
 
-Adicione aqui uma imagem do dashboard.
+![Dashboard Preview](images/gestao-logistica-transflow-logistics.png)
