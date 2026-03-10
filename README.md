@@ -188,10 +188,15 @@ Para consultar a documentação das medidas deste projeto, suas fórmulas e desc
 
 # 👨‍💻 Autor
 
-Projeto desenvolvido como parte de portfólio profissional de **Business Intelligence e Data Analytics**, demonstrando habilidades em:
+Projeto desenvolvido como parte do meu portfólio profissional em **Business Intelligence e Data Analytics**, demonstrando habilidades avançadas em:
 
-- desenvolvimento de dashboards executivos  
-- modelagem dimensional  
-- análise de performance logística  
-- storytelling com dados  
-- Power BI e DAX
+- Desenvolvimento de **dashboards executivos e painéis estratégicos**, com foco em tomada de decisão baseada em dados  
+- **Modelagem dimensional e relacional**, aplicando corretamente **cardinalidade**, **granularidade** e relacionamento entre tabelas para garantir consistência analítica  
+- **Transformação de dados com Power Query e Linguagem M**, criando pipelines otimizados e automatizados  
+- **Integração de múltiplas fontes de dados** (Excel, SQL, APIs, arquivos planos) com padronização e validação de informações  
+- Criação de **KPIs estratégicos e métricas customizadas em DAX**, garantindo insights acionáveis e comparações confiáveis  
+- **Data storytelling e visualizações interativas**, usando cores, hierarquias e filtros para facilitar interpretação e análise  
+- **Análises preditivas e tendências**, aproveitando séries históricas e modelagem de dados avançada  
+- **Documentação detalhada de medidas, tabelas e modelos**, permitindo reprodutibilidade e transparência para usuários e stakeholders  
+- Otimização de **performance de relatórios**, com técnicas de compressão, filtragem e redução de cálculos redundantes  
+- Domínio completo de **Power BI, DAX e Power Query**, aplicando boas práticas de design e engenharia de dados
