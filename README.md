@@ -182,6 +182,10 @@ Essa estrutura permite maior eficiência analítica e melhor performance do mode
 
 ![Dashboard Preview](images/gestao-logistica-transflow-logistics.png)
 
+## Documentação das Medidas
+
+Para consultar a documentação das medidas deste projeto, suas fórmulas e descrições, acesse a [Documentação das Medidas](docs/medidas-documentacao.md).
+
 # 👨‍💻 Autor
 
 Projeto desenvolvido como parte de portfólio profissional de **Business Intelligence e Data Analytics**, demonstrando habilidades em:
