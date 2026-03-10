@@ -210,6 +210,6 @@ Projeto desenvolvido como parte do meu portfólio profissional em **Business Int
 
 <img src="images/phoenix-information-technology-solutions.png" width="640">
 
-| [LinkedIn](https://www.linkedin.com/in/rogerio-clynton-ribeiro/) | [Portfólio]([https://www.clyntonchronos.com](https://clyntonboss.github.io/)) |
+| [LinkedIn](https://www.linkedin.com/in/rogerio-clynton-ribeiro/) | [Portfólio](https://clyntonboss.github.io/) |
 
 </div>
