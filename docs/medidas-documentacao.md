@@ -1,5 +1,4 @@
-# Documentação das Medidas - Projeto TransFlow Logistics
-# Projeto Logística — TransFlow Logistics
+# Documentação das Medidas: Projeto Logística — TransFlow Logistics
 
 Este documento lista todas as medidas criadas no modelo Power BI, suas regras de negócio, dependências e retornos esperados.
 
