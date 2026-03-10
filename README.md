@@ -208,7 +208,7 @@ Projeto desenvolvido como parte do meu portfólio profissional em **Business Int
   
 **Portfólio de Business Intelligence & Data Analytics**  
 
-<img src="images/phoenix-information-technology-solutions.png" width="640">
+<img src="images/phoenix-information-technology-solutions.png" width="540">
 
 | [LinkedIn](https://www.linkedin.com/in/rogério-clynton-ribeiro/) | [Portfólio](https://clyntonboss.github.io/) |
 
