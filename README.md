@@ -188,15 +188,16 @@ Para consultar a documentação das medidas deste projeto, suas fórmulas e desc
 
 # 👨‍💻 Autor
 
-Projeto desenvolvido como parte do meu portfólio profissional em **Business Intelligence e Data Analytics**, demonstrando habilidades avançadas em:
+Projeto desenvolvido como parte do meu portfólio profissional em **Business Intelligence e Data Analytics**, destacando habilidades avançadas e aplicáveis a diversos cenários analíticos:
 
-- Desenvolvimento de **dashboards executivos e painéis estratégicos**, com foco em tomada de decisão baseada em dados  
-- **Modelagem dimensional e relacional**, aplicando corretamente **cardinalidade**, **granularidade** e relacionamento entre tabelas para garantir consistência analítica  
-- **Transformação de dados com Power Query e Linguagem M**, criando pipelines otimizados e automatizados  
-- **Integração de múltiplas fontes de dados** (Excel, SQL, APIs, arquivos planos) com padronização e validação de informações  
-- Criação de **KPIs estratégicos e métricas customizadas em DAX**, garantindo insights acionáveis e comparações confiáveis  
-- **Data storytelling e visualizações interativas**, usando cores, hierarquias e filtros para facilitar interpretação e análise  
-- **Análises preditivas e tendências**, aproveitando séries históricas e modelagem de dados avançada  
-- **Documentação detalhada de medidas, tabelas e modelos**, permitindo reprodutibilidade e transparência para usuários e stakeholders  
-- Otimização de **performance de relatórios**, com técnicas de compressão, filtragem e redução de cálculos redundantes  
-- Domínio completo de **Power BI, DAX e Power Query**, aplicando boas práticas de design e engenharia de dados
+- Desenvolvimento de **dashboards executivos e painéis estratégicos**, focados em insights acionáveis e tomada de decisão baseada em dados  
+- **Modelagem dimensional e relacional**, aplicando corretamente **cardinalidade, granularidade** e hierarquias entre tabelas para garantir consistência e integridade dos dados  
+- **Transformação de dados com Power Query e Linguagem M**, criando pipelines eficientes, automatizados e auditáveis  
+- Criação de **KPIs estratégicos e métricas customizadas em DAX**, para análise de performance e comparações confiáveis  
+- **Integração de múltiplas fontes de dados** (Excel, SQL, APIs, arquivos planos), padronizando e validando informações críticas  
+- **Data storytelling e visualizações interativas**, com cores, hierarquias, filtros e destaque de insights, para facilitar interpretação e engajamento do usuário  
+- **Análises estatísticas e preditivas**, usando Python, R, regressões, teste de hipóteses, séries temporais e técnicas de Machine Learning para identificação de tendências e padrões  
+- **Automatização e otimização de processos analíticos**, incluindo ETL, scripts e compressão de dados, garantindo performance e escalabilidade dos relatórios  
+- **Documentação detalhada de medidas, tabelas, modelos e processos**, permitindo reprodutibilidade, transparência e governança dos dados  
+- Aplicação de **boas práticas de engenharia de dados**, integrando análise, estatística, IA e visualização para soluções analíticas completas e confiáveis  
+- Domínio completo de **Power BI, DAX, Power Query, Python e R**, com foco em performance, qualidade e entrega de insights estratégicos
