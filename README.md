@@ -208,9 +208,8 @@ Projeto desenvolvido como parte do meu portfólio profissional em **Business Int
   
 **Portfólio de Business Intelligence & Data Analytics**  
 
-® Desenvolvido por **Rogério Clynton Ribeiro**  
-| [LinkedIn](https://www.linkedin.com/in/rogerioclynton/) | [Portfólio](https://www.clyntonchronos.com) |
+® Desenvolvido por **Rogério Clynton Ribeiro** | [LinkedIn](https://www.linkedin.com/in/rogerioclynton/) | [Portfólio](https://www.clyntonchronos.com) |
 
-<img src="images/phoenix-information-technology-solutions.png" alt="Logo RC" width="150" style="border-radius:20px;">
+<img src="images/phoenix-information-technology-solutions.png" alt="Logo RC" width="320" style="border-radius:32px;">
 
 </div>
