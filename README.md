@@ -206,7 +206,7 @@ Projeto desenvolvido como parte do meu portfólio profissional em **Business Int
 
 <div align="center">
   
-## Portfólio de Business Intelligence & Data Analytics
+**Portfólio de Business Intelligence & Data Analytics**
 ® Desenvolvido por **Rogério Clynton Ribeiro**  
 | [LinkedIn](https://www.linkedin.com/in/rogerioclynton/) | [Portfólio](https://www.clyntonchronos.com) |
 
