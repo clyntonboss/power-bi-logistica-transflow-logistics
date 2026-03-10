@@ -208,6 +208,6 @@ Projeto desenvolvido como parte do meu portfólio profissional em **Business Int
   
 **Portfólio de Business Intelligence & Data Analytics**  
 
-<img src="images/phoenix-information-technology-solutions.png" height="800px">
+<img src="images/phoenix-information-technology-solutions.png" width="1024">
 
 </div>
