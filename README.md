@@ -201,3 +201,14 @@ Projeto desenvolvido como parte do meu portfólio profissional em **Business Int
 - **Documentação detalhada de medidas, tabelas, modelos e processos**, permitindo reprodutibilidade, transparência e governança dos dados  
 - Aplicação de **boas práticas de engenharia de dados**, integrando análise, estatística, IA e visualização para soluções analíticas completas e confiáveis  
 - Domínio completo de **Power BI, DAX, Power Query, Python e R**, com foco em performance, qualidade e entrega de insights estratégicos
+
+---
+
+<div align="center">
+
+Desenvolvido por **Rogério Clynton Ribeiro**  
+[LinkedIn](https://www.linkedin.com/in/rogerioclynton/) | [Portfólio](https://www.clyntonchronos.com)  
+
+![Logo RC](caminho/para/logo-rc.png)
+
+</div>
