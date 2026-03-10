@@ -1,4 +1,4 @@
-# 📦 Dashboard de Gestão Logística — TransFlow Logistics
+# 📦 Projeto Logística — TransFlow Logistics
 
 ## 📊 Visão Geral
 
@@ -6,8 +6,7 @@ Este projeto apresenta um **dashboard de gestão logística desenvolvido em Powe
 
 A solução permite acompanhar indicadores críticos da operação, identificar gargalos logísticos e apoiar decisões estratégicas baseadas em dados.
 
-🔎 **Acesse o dashboard interativo:**  
-[Projeto Interativo](https://app.powerbi.com/view?r=eyJrIjoiMWVhZGU1MjctYjVhMS00MjJlLWFiMWItZjk1OGJhODY5MjgzIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9)
+🔎 **[Dashboard Interativo](https://app.powerbi.com/view?r=eyJrIjoiMWVhZGU1MjctYjVhMS00MjJlLWFiMWItZjk1OGJhODY5MjgzIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9)**  
 
 ---
 
@@ -182,3 +181,13 @@ Essa estrutura permite maior eficiência analítica e melhor performance do mode
 # 📸 Preview do Dashboard
 
 ![Dashboard Preview](images/gestao-logistica-transflow-logistics.png)
+
+# 👨‍💻 Autor
+
+Projeto desenvolvido como parte de portfólio profissional de **Business Intelligence e Data Analytics**, demonstrando habilidades em:
+
+- desenvolvimento de dashboards executivos  
+- modelagem dimensional  
+- análise de performance logística  
+- storytelling com dados  
+- Power BI e DAX
