@@ -180,7 +180,7 @@ Essa estrutura permite maior eficiência analítica e melhor performance do mode
 
 # 📸 Preview do Dashboard
 
-![Dashboard Preview](images/gestao-logistica-transflow-logistics.png)
+![Dashboard Preview](images/logistica-transflow-logistics.png)
 
 ## Documentação das Medidas
 
