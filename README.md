@@ -211,6 +211,6 @@ Projeto desenvolvido como parte do meu portfólio profissional em **Business Int
 ® Desenvolvido por **Rogério Clynton Ribeiro**  
 | [LinkedIn](https://www.linkedin.com/in/rogerioclynton/) | [Portfólio](https://www.clyntonchronos.com) |
 
-![Logo RC](images/phoenix-information-technology-solutions.png)
+<img src="images/phoenix-information-technology-solutions.png" alt="Logo RC" width="150" style="border-radius:20px;">
 
 </div>
