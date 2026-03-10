@@ -208,7 +208,15 @@ Projeto desenvolvido como parte do meu portfólio profissional em **Business Int
   
 **Portfólio de Business Intelligence & Data Analytics**  
 
-® Desenvolvido por **Rogério Clynton Ribeiro** | [LinkedIn](https://www.linkedin.com/in/rogerioclynton/) | [Portfólio](https://www.clyntonchronos.com) |
+<p style="font-family: 'Brush Script MT', cursive; font-size:28px; margin:5px 0 0 0;">
+Rogério Clynton Ribeiro
+</p>
+
+<hr style="width:60px; border:1px solid #000; margin:8px auto;">
+
+<p style="font-family: Arial, sans-serif; font-size:16px; margin:0;">
+Especialista em <strong>Business Intelligence & Data Analytics</strong>
+</p>
 
 <img src="images/phoenix-information-technology-solutions.png" alt="Logo RC" width="320" style="border-radius:32px;">
 
