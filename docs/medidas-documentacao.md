@@ -118,6 +118,122 @@ RETURN
 ```
 Descrição: Quantidade de pedidos sem devolução.
 
+## Medidas de Devolução (Percentual)
+
+### percentual_arrependimento
+```DAX
+-- Medida: percentual_arrependimento
+-- Descrição: Percentual de pedidos devolvidos por arrependimento em relação ao total de pedidos
+-- Tabela origem: fLogistica
+-- Regra de negócio:
+--     Divide o número de pedidos devolvidos por arrependimento pela quantidade total de pedidos
+-- Dependência:
+--     [devolucao_arrependimento], [quantidade_pedidos]
+-- Retorno:
+--     Percentual (0 a 1) de pedidos devolvidos por arrependimento
+-- Observação:
+--     COALESCE é utilizado para evitar retorno BLANK() e divisão por zero
+
+VAR _Resultado =
+    DIVIDE(
+        [devolucao_arrependimento],
+        [quantidade_pedidos]
+    )
+
+RETURN
+    COALESCE(
+        _Resultado,
+        0
+    )
+```
+Descrição: Percentual de pedidos devolvidos por arrependimento.
+
+### percentual_danificado
+```DAX
+-- Medida: percentual_danificado
+-- Descrição: Percentual de pedidos devolvidos por motivo "Danificado" em relação ao total de pedidos
+-- Tabela origem: fLogistica
+-- Regra de negócio:
+--     Divide o número de pedidos devolvidos por dano pelo total de pedidos
+-- Dependência:
+--     [devolucao_danificado], [quantidade_pedidos]
+-- Retorno:
+--     Percentual (0 a 1) de pedidos devolvidos por motivo Danificado
+-- Observação:
+--     COALESCE é utilizado para evitar retorno BLANK() e divisão por zero
+
+VAR _Resultado =
+    DIVIDE(
+        [devolucao_danificado],
+        [quantidade_pedidos]
+    )
+
+RETURN
+    COALESCE(
+        _Resultado,
+        0
+    )
+```
+Descrição: Percentual de pedidos devolvidos por motivo Danificado.
+
+### percentual_produto_errado
+```DAX
+-- Medida: percentual_produto_errado
+-- Descrição: Percentual de pedidos devolvidos por motivo "Produto Errado" em relação ao total de pedidos
+-- Tabela origem: fLogistica
+-- Regra de negócio:
+--     Divide o número de pedidos devolvidos por motivo "Produto Errado" pelo total de pedidos
+-- Dependência:
+--     [devolucao_produto_errado], [quantidade_pedidos]
+-- Retorno:
+--     Percentual (0 a 1) de pedidos devolvidos por motivo Produto Errado
+-- Observação:
+--     COALESCE é utilizado para evitar retorno BLANK() e divisão por zero
+
+VAR _Resultado =
+    DIVIDE(
+        [devolucao_produto_errado],
+        [quantidade_pedidos]
+    )
+
+RETURN
+    COALESCE(
+        _Resultado,
+        0
+    )
+```
+Descrição: Percentual de pedidos devolvidos por Produto Errado.
+
+### percentual_sem_devolucao
+```DAX
+-- Medida: percentual_sem_devolucao
+-- Descrição: Percentual de pedidos sem devolução em relação ao total de pedidos
+-- Tabela origem: fLogistica
+-- Regra de negócio:
+--     Divide o número de pedidos sem devolução pelo total de pedidos
+-- Dependência:
+--     [sem_devolução], [quantidade_pedidos]
+-- Retorno:
+--     Percentual (0 a 1) de pedidos sem devolução
+-- Observação:
+--     COALESCE é utilizado para evitar retorno BLANK() e divisão por zero
+
+VAR _Resultado =
+    DIVIDE(
+        [sem_devolucao],
+        [quantidade_pedidos]
+    )
+
+RETURN
+    COALESCE(
+        _Resultado,
+        0
+    )
+```
+Descrição: Percentual de pedidos sem devolução.
+
+
+
 
 
 ## Medidas de Contagem
@@ -297,92 +413,6 @@ Descrição: Soma do valor faturado de todos os pedidos.
 
 ---
 
-## Medidas de Percentual
-
-### percentual_arrependimento
-```DAX
--- Medida: percentual_arrependimento
--- Descrição: Percentual de pedidos devolvidos por arrependimento em relação ao total de pedidos
--- Tabela origem: fLogistica
--- Regra de negócio:
---     Divide o número de pedidos devolvidos por arrependimento pela quantidade total de pedidos
--- Dependência:
---     [devolucao_arrependimento], [quantidade_pedidos]
--- Retorno:
---     Percentual (0 a 1) de pedidos devolvidos por arrependimento
--- Observação:
---     COALESCE é utilizado para evitar retorno BLANK() e divisão por zero
-
-VAR _Resultado =
-    DIVIDE(
-        [devolucao_arrependimento],
-        [quantidade_pedidos]
-    )
-
-RETURN
-    COALESCE(
-        _Resultado,
-        0
-    )
-```
-Descrição: Percentual de pedidos devolvidos por arrependimento.
-
-### percentual_danificado
-```DAX
--- Medida: percentual_danificado
--- Descrição: Percentual de pedidos devolvidos por motivo "Danificado" em relação ao total de pedidos
--- Tabela origem: fLogistica
--- Regra de negócio:
---     Divide o número de pedidos devolvidos por dano pelo total de pedidos
--- Dependência:
---     [devolucao_danificado], [quantidade_pedidos]
--- Retorno:
---     Percentual (0 a 1) de pedidos devolvidos por motivo Danificado
--- Observação:
---     COALESCE é utilizado para evitar retorno BLANK() e divisão por zero
-
-VAR _Resultado =
-    DIVIDE(
-        [devolucao_danificado],
-        [quantidade_pedidos]
-    )
-
-RETURN
-    COALESCE(
-        _Resultado,
-        0
-    )
-```
-Descrição: Percentual de pedidos devolvidos por motivo Danificado.
-
-### percentual_produto_errado
-```DAX
--- Medida: percentual_produto_errado
--- Descrição: Percentual de pedidos devolvidos por motivo "Produto Errado" em relação ao total de pedidos
--- Tabela origem: fLogistica
--- Regra de negócio:
---     Divide o número de pedidos devolvidos por motivo "Produto Errado" pelo total de pedidos
--- Dependência:
---     [devolucao_produto_errado], [quantidade_pedidos]
--- Retorno:
---     Percentual (0 a 1) de pedidos devolvidos por motivo Produto Errado
--- Observação:
---     COALESCE é utilizado para evitar retorno BLANK() e divisão por zero
-
-VAR _Resultado =
-    DIVIDE(
-        [devolucao_produto_errado],
-        [quantidade_pedidos]
-    )
-
-RETURN
-    COALESCE(
-        _Resultado,
-        0
-    )
-```
-Descrição: Percentual de pedidos devolvidos por Produto Errado.
-
 ### percentual_entregas_prazo
 ```DAX
 -- Medida: percentual_entregas_prazo
@@ -438,32 +468,4 @@ RETURN
     )
 ```
 Descrição: Percentual de produtos devolvidos.
-
-### percentual_sem_devolucao
-```DAX
--- Medida: percentual_sem_devolucao
--- Descrição: Percentual de pedidos sem devolução em relação ao total de pedidos
--- Tabela origem: fLogistica
--- Regra de negócio:
---     Divide o número de pedidos sem devolução pelo total de pedidos
--- Dependência:
---     [sem_devolução], [quantidade_pedidos]
--- Retorno:
---     Percentual (0 a 1) de pedidos sem devolução
--- Observação:
---     COALESCE é utilizado para evitar retorno BLANK() e divisão por zero
-
-VAR _Resultado =
-    DIVIDE(
-        [sem_devolucao],
-        [quantidade_pedidos]
-    )
-
-RETURN
-    COALESCE(
-        _Resultado,
-        0
-    )
-```
-Descrição: Percentual de pedidos sem devolução.
 
