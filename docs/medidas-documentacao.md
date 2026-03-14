@@ -8,8 +8,28 @@ Este documento lista todas as medidas criadas no modelo Power BI, suas regras de
 
 ### quantidade_pedidos
 ```DAX
-VAR Resultado = COUNTROWS('fLogistica')
-RETURN COALESCE(Resultado, 0)
+-- Medida: quantidade_pedidos
+-- Descrição: Total de pedidos registrados na tabela fLogistica
+-- Tabela origem: fLogistica
+-- Regra de negócio:
+--     Conta todas as linhas da tabela fLogistica, representando cada pedido
+-- Dependência:
+--     'fLogistica'
+-- Retorno:
+--     Número inteiro de pedidos
+-- Observação:
+--     COALESCE é utilizado para evitar retorno BLANK()
+
+VAR _Resultado =
+    COUNTROWS(
+        'fLogistica'
+    )
+
+RETURN
+    COALESCE(
+        _Resultado,
+        0
+    )
 ```
 Descrição: Total de pedidos registrados na tabela fLogistica.
 
