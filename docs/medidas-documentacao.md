@@ -145,6 +145,8 @@ RETURN
 ```
 Descrição: Quantidade de pedidos sem devolução.
 
+---
+
 ## Medidas de Devolução (Percentual)
 
 ### percentual_arrependimento
