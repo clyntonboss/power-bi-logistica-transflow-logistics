@@ -90,6 +90,33 @@ RETURN
 ```
 Descrição: Quantidade de pedidos devolvidos por motivo Produto Errado.
 
+### produtos_devolvidos
+```DAX
+-- Medida: produtos_devolvidos
+-- Descrição: Total de produtos devolvidos
+-- Tabela origem: fLogistica
+-- Regra de negócio:
+--     Soma simples da coluna [quantidade_devolucao] da tabela fLogistica
+-- Dependência:
+--     'fLogistica'[quantidade_devolucao]
+-- Retorno:
+--     Número total de produtos devolvidos
+-- Observação:
+--     COALESCE é utilizado para evitar retorno BLANK()
+
+VAR _Resultado =
+    SUM(
+        'fLogistica'[quantidade_devolucao]
+    )
+
+RETURN
+    COALESCE(
+        _Resultado,
+        0
+    )
+```
+Descrição: Total de produtos devolvidos.
+
 ### sem_devolucao
 ```DAX
 -- Medida: sem_devolucao
@@ -203,6 +230,34 @@ RETURN
     )
 ```
 Descrição: Percentual de pedidos devolvidos por Produto Errado.
+
+### percentual_produtos_devolvidos
+```DAX
+-- Medida: percentual_produtos_devolvidos
+-- Descrição: Percentual de produtos devolvidos em relação ao total de produtos vendidos
+-- Tabela origem: fLogistica
+-- Regra de negócio:
+--     Divide o total de produtos devolvidos pelo total de produtos vendidos
+-- Dependência:
+--     [produtos_devolvidos], [quantidade_produtos]
+-- Retorno:
+--     Percentual (0 a 1) de produtos devolvidos
+-- Observação:
+--     COALESCE é utilizado para evitar retorno BLANK() e divisão por zero
+
+VAR _Resultado =
+    DIVIDE(
+        [produtos_devolvidos],
+        [quantidade_produtos]
+    )
+
+RETURN
+    COALESCE(
+        _Resultado,
+        0
+    )
+```
+Descrição: Percentual de produtos devolvidos.
 
 ### percentual_sem_devolucao
 ```DAX
@@ -321,33 +376,6 @@ Descrição: Quantidade distinta de motoristas registrados.
 
 ---
 
-### produtos_devolvidos
-```DAX
--- Medida: produtos_devolvidos
--- Descrição: Total de produtos devolvidos
--- Tabela origem: fLogistica
--- Regra de negócio:
---     Soma simples da coluna [quantidade_devolucao] da tabela fLogistica
--- Dependência:
---     'fLogistica'[quantidade_devolucao]
--- Retorno:
---     Número total de produtos devolvidos
--- Observação:
---     COALESCE é utilizado para evitar retorno BLANK()
-
-VAR _Resultado =
-    SUM(
-        'fLogistica'[quantidade_devolucao]
-    )
-
-RETURN
-    COALESCE(
-        _Resultado,
-        0
-    )
-```
-Descrição: Total de produtos devolvidos.
-
 ---
 
 ## Medidas de Entregas
@@ -441,31 +469,5 @@ RETURN
 ```
 Descrição: Percentual de pedidos entregues dentro do prazo.
 
-### percentual_produtos_devolvidos
-```DAX
--- Medida: percentual_produtos_devolvidos
--- Descrição: Percentual de produtos devolvidos em relação ao total de produtos vendidos
--- Tabela origem: fLogistica
--- Regra de negócio:
---     Divide o total de produtos devolvidos pelo total de produtos vendidos
--- Dependência:
---     [produtos_devolvidos], [quantidade_produtos]
--- Retorno:
---     Percentual (0 a 1) de produtos devolvidos
--- Observação:
---     COALESCE é utilizado para evitar retorno BLANK() e divisão por zero
 
-VAR _Resultado =
-    DIVIDE(
-        [produtos_devolvidos],
-        [quantidade_produtos]
-    )
-
-RETURN
-    COALESCE(
-        _Resultado,
-        0
-    )
-```
-Descrição: Percentual de produtos devolvidos.
 
