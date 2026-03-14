@@ -4,92 +4,7 @@ Este documento lista todas as medidas criadas no modelo Power BI, suas regras de
 
 ---
 
-## Medidas de Contagem
-
-### quantidade_pedidos
-```DAX
--- Medida: quantidade_pedidos
--- Descrição: Total de pedidos registrados na tabela fLogistica
--- Tabela origem: fLogistica
--- Regra de negócio:
---     Conta todas as linhas da tabela fLogistica, representando cada pedido
--- Dependência:
---     'fLogistica'
--- Retorno:
---     Número inteiro de pedidos
--- Observação:
---     COALESCE é utilizado para evitar retorno BLANK()
-
-VAR _Resultado =
-    COUNTROWS(
-        'fLogistica'
-    )
-
-RETURN
-    COALESCE(
-        _Resultado,
-        0
-    )
-```
-Descrição: Total de pedidos registrados na tabela fLogistica.
-
-### quantidade_produtos
-```DAX
--- Medida: quantidade_produtos
--- Descrição: Total de produtos registrados na tabela fLogistica
--- Tabela origem: fLogistica
--- Regra de negócio:
---     Soma todos os itens de produtos na coluna [quantidade_itens] da tabela fLogistica
--- Dependência:
---     'fLogistica'[quantidade_itens]
--- Retorno:
---     Número total de produtos
--- Observação:
---     COALESCE é utilizado para evitar retorno BLANK()
-
-VAR _Resultado =
-    SUM(
-        'fLogistica'[quantidade_itens]
-    )
-
-RETURN
-    COALESCE(
-        _Resultado,
-        0
-    )
-```
-Descrição: Total de produtos registrados na tabela fLogistica.
-
-### quantidade_motoristas
-```DAX
--- Medida: quantidade_motoristas
--- Descrição: Quantidade distinta de motoristas registrados na tabela fLogistica
--- Tabela origem: fLogistica
--- Regra de negócio:
---     Conta todos os motoristas distintos na coluna [nome_motorista]
--- Dependência:
---     'fLogistica'[nome_motorista]
--- Retorno:
---     Número inteiro de motoristas distintos
--- Observação:
---     COALESCE é utilizado para evitar retorno BLANK()
-
-VAR _Resultado =
-    DISTINCTCOUNT(
-        'fLogistica'[nome_motorista]
-    )
-
-RETURN
-    COALESCE(
-        _Resultado,
-        0
-    )
-```
-Descrição: Quantidade distinta de motoristas registrados.
-
----
-
-## Medidas de Devolução
+## Medidas de Devolução (Absoluto)
 
 ### devolucao_arrependimento
 ```DAX
@@ -202,6 +117,93 @@ RETURN
     )
 ```
 Descrição: Quantidade de pedidos sem devolução.
+
+
+
+## Medidas de Contagem
+
+### quantidade_pedidos
+```DAX
+-- Medida: quantidade_pedidos
+-- Descrição: Total de pedidos registrados na tabela fLogistica
+-- Tabela origem: fLogistica
+-- Regra de negócio:
+--     Conta todas as linhas da tabela fLogistica, representando cada pedido
+-- Dependência:
+--     'fLogistica'
+-- Retorno:
+--     Número inteiro de pedidos
+-- Observação:
+--     COALESCE é utilizado para evitar retorno BLANK()
+
+VAR _Resultado =
+    COUNTROWS(
+        'fLogistica'
+    )
+
+RETURN
+    COALESCE(
+        _Resultado,
+        0
+    )
+```
+Descrição: Total de pedidos registrados na tabela fLogistica.
+
+### quantidade_produtos
+```DAX
+-- Medida: quantidade_produtos
+-- Descrição: Total de produtos registrados na tabela fLogistica
+-- Tabela origem: fLogistica
+-- Regra de negócio:
+--     Soma todos os itens de produtos na coluna [quantidade_itens] da tabela fLogistica
+-- Dependência:
+--     'fLogistica'[quantidade_itens]
+-- Retorno:
+--     Número total de produtos
+-- Observação:
+--     COALESCE é utilizado para evitar retorno BLANK()
+
+VAR _Resultado =
+    SUM(
+        'fLogistica'[quantidade_itens]
+    )
+
+RETURN
+    COALESCE(
+        _Resultado,
+        0
+    )
+```
+Descrição: Total de produtos registrados na tabela fLogistica.
+
+### quantidade_motoristas
+```DAX
+-- Medida: quantidade_motoristas
+-- Descrição: Quantidade distinta de motoristas registrados na tabela fLogistica
+-- Tabela origem: fLogistica
+-- Regra de negócio:
+--     Conta todos os motoristas distintos na coluna [nome_motorista]
+-- Dependência:
+--     'fLogistica'[nome_motorista]
+-- Retorno:
+--     Número inteiro de motoristas distintos
+-- Observação:
+--     COALESCE é utilizado para evitar retorno BLANK()
+
+VAR _Resultado =
+    DISTINCTCOUNT(
+        'fLogistica'[nome_motorista]
+    )
+
+RETURN
+    COALESCE(
+        _Resultado,
+        0
+    )
+```
+Descrição: Quantidade distinta de motoristas registrados.
+
+---
 
 ### produtos_devolvidos
 ```DAX
