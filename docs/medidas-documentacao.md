@@ -33,6 +33,7 @@ RETURN
     )
 ```
 Descrição: Quantidade de pedidos devolvidos por motivo de arrependimento.  
+  
 
 ### devolucao_danificado
 ```DAX
