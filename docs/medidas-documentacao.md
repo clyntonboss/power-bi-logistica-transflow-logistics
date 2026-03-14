@@ -289,6 +289,8 @@ RETURN
 ```
 Descrição: Percentual de pedidos sem devolução.
 
+---
+
 ## Medidas de Entregas
 
 ### entregas_prazo
@@ -347,6 +349,8 @@ RETURN
 ```
 Descrição: Percentual de pedidos entregues dentro do prazo.
 
+---
+
 ## Medidas de Faturamento
 
 ### faturamento
@@ -376,6 +380,7 @@ RETURN
 ```
 Descrição: Soma do valor faturado de todos os pedidos.
 
+---
 
 ## Medidas de Contagem
 
@@ -459,14 +464,5 @@ RETURN
     )
 ```
 Descrição: Total de produtos registrados na tabela fLogistica.
-
----
-
----
-
----
-
----
-
 
 
