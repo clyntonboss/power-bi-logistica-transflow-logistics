@@ -287,11 +287,122 @@ RETURN
 ```
 Descrição: Percentual de pedidos sem devolução.
 
+## Medidas de Entregas
 
+### entregas_prazo
+```DAX
+-- Medida: entregas_prazo
+-- Descrição: Quantidade de pedidos entregues dentro do prazo
+-- Tabela origem: fLogistica
+-- Regra de negócio:
+--     Considera apenas registros onde status = "No Prazo"
+-- Dependência:
+--     [quantidade_pedidos]
+-- Retorno:
+--     Número inteiro de pedidos entregues no prazo
+-- Observação:
+--     COALESCE é utilizado para evitar retorno BLANK()
 
+VAR _Resultado =
+    CALCULATE(
+        [quantidade_pedidos],
+        'fLogistica'[status] = "No Prazo"
+    )
+
+RETURN
+    COALESCE(
+        _Resultado,
+        0
+    )
+```
+Descrição: Quantidade de pedidos entregues dentro do prazo.
+
+### percentual_entregas_prazo
+```DAX
+-- Medida: percentual_entregas_prazo
+-- Descrição: Percentual de pedidos entregues dentro do prazo em relação ao total de pedidos
+-- Tabela origem: fLogistica
+-- Regra de negócio:
+--     Divide o número de pedidos entregues no prazo pelo total de pedidos
+-- Dependência:
+--     [entregas_prazo], [quantidade_pedidos]
+-- Retorno:
+--     Percentual (0 a 1) de pedidos entregues dentro do prazo
+-- Observação:
+--     COALESCE é utilizado para evitar retorno BLANK() e divisão por zero
+
+VAR _Resultado =
+    DIVIDE(
+        [entregas_prazo],
+        [quantidade_pedidos]
+    )
+
+RETURN
+    COALESCE(
+        _Resultado,
+        0
+    )
+```
+Descrição: Percentual de pedidos entregues dentro do prazo.
+
+## Medidas de Faturamento
+
+### faturamento
+```DAX
+-- Medida: faturamento
+-- Descrição: Soma do valor faturado de todos os pedidos
+-- Tabela origem: fLogistica
+-- Regra de negócio:
+--     Soma simples da coluna [valor_faturamento] da tabela fLogistica
+-- Dependência:
+--     'fLogistica'[valor_faturamento]
+-- Retorno:
+--     Valor monetário total faturado
+-- Observação:
+--     COALESCE é utilizado para evitar retorno BLANK()
+
+VAR _Resultado =
+    SUM(
+        'fLogistica'[valor_faturamento]
+    )
+
+RETURN
+    COALESCE(
+        _Resultado,
+        0
+    )
+```
+Descrição: Soma do valor faturado de todos os pedidos.
 
 
 ## Medidas de Contagem
+
+### quantidade_motoristas
+```DAX
+-- Medida: quantidade_motoristas
+-- Descrição: Quantidade distinta de motoristas registrados na tabela fLogistica
+-- Tabela origem: fLogistica
+-- Regra de negócio:
+--     Conta todos os motoristas distintos na coluna [nome_motorista]
+-- Dependência:
+--     'fLogistica'[nome_motorista]
+-- Retorno:
+--     Número inteiro de motoristas distintos
+-- Observação:
+--     COALESCE é utilizado para evitar retorno BLANK()
+
+VAR _Resultado =
+    DISTINCTCOUNT(
+        'fLogistica'[nome_motorista]
+    )
+
+RETURN
+    COALESCE(
+        _Resultado,
+        0
+    )
+```
+Descrição: Quantidade distinta de motoristas registrados.
 
 ### quantidade_pedidos
 ```DAX
@@ -347,127 +458,13 @@ RETURN
 ```
 Descrição: Total de produtos registrados na tabela fLogistica.
 
-### quantidade_motoristas
-```DAX
--- Medida: quantidade_motoristas
--- Descrição: Quantidade distinta de motoristas registrados na tabela fLogistica
--- Tabela origem: fLogistica
--- Regra de negócio:
---     Conta todos os motoristas distintos na coluna [nome_motorista]
--- Dependência:
---     'fLogistica'[nome_motorista]
--- Retorno:
---     Número inteiro de motoristas distintos
--- Observação:
---     COALESCE é utilizado para evitar retorno BLANK()
-
-VAR _Resultado =
-    DISTINCTCOUNT(
-        'fLogistica'[nome_motorista]
-    )
-
-RETURN
-    COALESCE(
-        _Resultado,
-        0
-    )
-```
-Descrição: Quantidade distinta de motoristas registrados.
+---
 
 ---
 
 ---
 
-## Medidas de Entregas
-
-### entregas_prazo
-```DAX
--- Medida: entregas_prazo
--- Descrição: Quantidade de pedidos entregues dentro do prazo
--- Tabela origem: fLogistica
--- Regra de negócio:
---     Considera apenas registros onde status = "No Prazo"
--- Dependência:
---     [quantidade_pedidos]
--- Retorno:
---     Número inteiro de pedidos entregues no prazo
--- Observação:
---     COALESCE é utilizado para evitar retorno BLANK()
-
-VAR _Resultado =
-    CALCULATE(
-        [quantidade_pedidos],
-        'fLogistica'[status] = "No Prazo"
-    )
-
-RETURN
-    COALESCE(
-        _Resultado,
-        0
-    )
-```
-Descrição: Quantidade de pedidos entregues dentro do prazo.
-
 ---
-
-## Medidas de Faturamento
-
-### faturamento
-```DAX
--- Medida: faturamento
--- Descrição: Soma do valor faturado de todos os pedidos
--- Tabela origem: fLogistica
--- Regra de negócio:
---     Soma simples da coluna [valor_faturamento] da tabela fLogistica
--- Dependência:
---     'fLogistica'[valor_faturamento]
--- Retorno:
---     Valor monetário total faturado
--- Observação:
---     COALESCE é utilizado para evitar retorno BLANK()
-
-VAR _Resultado =
-    SUM(
-        'fLogistica'[valor_faturamento]
-    )
-
-RETURN
-    COALESCE(
-        _Resultado,
-        0
-    )
-```
-Descrição: Soma do valor faturado de todos os pedidos.
-
----
-
-### percentual_entregas_prazo
-```DAX
--- Medida: percentual_entregas_prazo
--- Descrição: Percentual de pedidos entregues dentro do prazo em relação ao total de pedidos
--- Tabela origem: fLogistica
--- Regra de negócio:
---     Divide o número de pedidos entregues no prazo pelo total de pedidos
--- Dependência:
---     [entregas_prazo], [quantidade_pedidos]
--- Retorno:
---     Percentual (0 a 1) de pedidos entregues dentro do prazo
--- Observação:
---     COALESCE é utilizado para evitar retorno BLANK() e divisão por zero
-
-VAR _Resultado =
-    DIVIDE(
-        [entregas_prazo],
-        [quantidade_pedidos]
-    )
-
-RETURN
-    COALESCE(
-        _Resultado,
-        0
-    )
-```
-Descrição: Percentual de pedidos entregues dentro do prazo.
 
 
 
