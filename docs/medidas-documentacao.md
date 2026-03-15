@@ -351,7 +351,7 @@ Descrição: Percentual de pedidos entregues dentro do prazo.
 
 ---
 
-## Medidas de Faturamento
+## Medida de Faturamento
 
 ### faturamento
 ```DAX
