@@ -208,7 +208,7 @@ Projeto desenvolvido como parte do meu portfólio profissional em **Business Int
   
 **Portfólio de Business Intelligence & Data Analytics**  
 
-<img src="images/phoenix-information-technology-solutions.png" width="320">
+<img src="images/assinatura.png" width="400">
 
 💼 Aberto a oportunidades em Business Intelligence & Data Analytics
 
