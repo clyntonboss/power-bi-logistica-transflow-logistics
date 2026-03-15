@@ -210,6 +210,8 @@ Projeto desenvolvido como parte do meu portfólio profissional em **Business Int
 
 <img src="images/phoenix-information-technology-solutions.png" width="320">
 
+💼 Aberto a oportunidades em Data Analytics e Business Intelligence
+
 | [LinkedIn](https://www.linkedin.com/in/rogério-clynton-ribeiro/) | [Portfólio](https://clyntonboss.github.io/) |
 
 </div>
