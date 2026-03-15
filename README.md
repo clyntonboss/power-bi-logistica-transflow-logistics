@@ -6,7 +6,7 @@ Este projeto apresenta um **dashboard de gestão logística desenvolvido em Powe
 
 A solução permite acompanhar indicadores críticos da operação, identificar gargalos logísticos e apoiar decisões estratégicas baseadas em dados.
 
-🔎 **[Dashboard Interativo](https://app.powerbi.com/view?r=eyJrIjoiMWVhZGU1MjctYjVhMS00MjJlLWFiMWItZjk1OGJhODY5MjgzIiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9)**  
+🔎 [Dashboard Interativo](https://app.powerbi.com/view?r=eyJrIjoiNzhhNmQ0NmQtZGYyZC00NzVkLThmN2QtZjQxMDAwOTJmNTc1IiwidCI6IjIzY2FjN2VlLWYxZDgtNDMzOS1hYTdiLTc4MWFhOWY5MjI1YiJ9)  
 
 ---
 
