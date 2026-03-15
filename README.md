@@ -210,6 +210,8 @@ Projeto desenvolvido como parte do meu portfólio profissional em **Business Int
 
 <img src="images/assinatura.png" width="400">
 
+---
+
 💼 Aberto a oportunidades em Business Intelligence & Data Analytics
 
 | [LinkedIn](https://www.linkedin.com/in/rogério-clynton-ribeiro/) | [Portfólio](https://clyntonboss.github.io/) | [e-Mail](mailto:clyntonribeiror@gmail.com) | [WhatsApp](https://wa.me/5524999240768) |
