@@ -60,17 +60,17 @@ Com isso, gestores conseguem tomar decisões mais rápidas e baseadas em dados.
 
 O dashboard apresenta três cartões principais:
 
-### Pedidos
+### Pedidos Realizados
 
 - quantidade total de pedidos
 - percentual de entregas realizadas no prazo
 
-### Produtos
+### Produtos Transportados
 
-- quantidade total de produtos
+- quantidade total de produtos transportados
 - percentual de produtos devolvidos
 
-### Motoristas
+### Motoristas Ativos
 
 - quantidade total de motoristas ativos
 
