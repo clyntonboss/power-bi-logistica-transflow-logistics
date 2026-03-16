@@ -182,6 +182,10 @@ Essa estrutura permite maior eficiência analítica e melhor performance do mode
 
 ![Dashboard Preview](images/logistica-transflow-logistics.png)
 
+# 🗂️ Modelo de Dados
+
+![Modelo de Dados](images/modelo-dados-transflow-logistics.png)
+
 ## Documentação das Medidas
 
 Para consultar a documentação das medidas deste projeto, suas fórmulas e descrições, acesse a [Documentação das Medidas](docs/medidas-documentacao.md).
