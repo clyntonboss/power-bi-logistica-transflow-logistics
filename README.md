@@ -93,7 +93,7 @@ Gráfico de rosca mostrando:
 Gráfico de barras horizontais que apresenta:
 
 - quantidade de pedidos por cliente
-- identificação dos clientes com maior volume de entregas
+- identificação dos clientes com maior volume de pedidos
 
 ---
 
