@@ -83,7 +83,7 @@ O dashboard apresenta três cartões principais:
 Gráfico de rosca mostrando:
 
 - pedidos entregues no prazo
-- pedidos atrasados
+- pedidos entregues atrasados
 - percentual de cada categoria
 
 ---
