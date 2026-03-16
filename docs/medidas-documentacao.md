@@ -45,12 +45,12 @@ RETURN
 ```
 Descrição: Quantidade de pedidos devolvidos por motivo de arrependimento.
 
-### devolucao_danificado
+### devolucao_produto_danificado
 ```DAX
-devolucao_danificado = 
+devolucao_produto_danificado = 
 
 -- Medida:
---      devolucao_danificado
+--      devolucao_produto_danificado
 --
 -- Descrição:
 --      Quantidade de pedidos devolvidos por motivo de produto danificado
@@ -59,7 +59,7 @@ devolucao_danificado =
 --      fPedidos_Realizados
 --
 -- Regra de negócio:
---      Considera apenas registros onde motivo_devolucao = "Danificado"
+--      Considera apenas registros onde motivo_devolucao = "Produto Danificado"
 --
 -- Dependência:
 --      [quantidade_pedidos]
@@ -82,7 +82,7 @@ RETURN
         0
     )
 ```
-Descrição: Quantidade de pedidos devolvidos por motivo Danificado.
+Descrição: Quantidade de pedidos devolvidos por motivo Produto Danificado.
 
 ### devolucao_produto_errado
 ```DAX
@@ -243,15 +243,15 @@ RETURN
 ```
 Descrição: Percentual de pedidos devolvidos por arrependimento.
 
-### percentual_danificado
+### percentual_produto_danificado
 ```DAX
-percentual_danificado = 
+percentual_produto_danificado = 
 
 -- Medida:
---      percentual_danificado
+--      percentual_produto_danificado
 --
 -- Descrição:
---      Percentual de pedidos devolvidos por motivo "Danificado" em relação ao total de pedidos
+--      Percentual de pedidos devolvidos por motivo "Produto Danificado" em relação ao total de pedidos
 --
 -- Tabela origem:
 --      fPedidos_Realizados
@@ -260,17 +260,17 @@ percentual_danificado =
 --      Divide o número de pedidos devolvidos por dano pelo total de pedidos
 --
 -- Dependência:
---      [devolucao_danificado], [quantidade_pedidos]
+--      [devolucao_produto_danificado], [quantidade_pedidos]
 --
 -- Retorno:
---      Percentual (0 a 1) de pedidos devolvidos por motivo Danificado
+--      Percentual (0 a 1) de pedidos devolvidos por motivo Produto Danificado
 --
 -- Observação:
 --      COALESCE é utilizado para evitar retorno BLANK() e divisão por zero
 
 VAR _Resultado =
     DIVIDE(
-        [devolucao_danificado],
+        [devolucao_produto_danificado],
         [quantidade_pedidos]
     )
 
@@ -280,7 +280,7 @@ RETURN
         0
     )
 ```
-Descrição: Percentual de pedidos devolvidos por motivo Danificado.
+Descrição: Percentual de pedidos devolvidos por Produto Danificado.
 
 ### percentual_produto_errado
 ```DAX
@@ -563,7 +563,7 @@ RETURN
         0
     )
 ```
-Descrição: Quantidade distinta de motoristas registrados.
+Descrição: Quantidade de motoristas ativos.
 
 ### quantidade_pedidos
 ```DAX
@@ -601,7 +601,7 @@ RETURN
         0
     )
 ```
-Descrição: Total de pedidos registrados na tabela fLogistica.
+Descrição: Total de pedidos registrados na tabela fPedidos_Realizados.
 
 ### quantidade_produtos
 ```DAX
@@ -639,4 +639,4 @@ RETURN
         0
     )
 ```
-Descrição: Total de produtos registrados na tabela fLogistica.
+Descrição: Total de produtos devolvidos na tabela fPedidos_Realizados.
