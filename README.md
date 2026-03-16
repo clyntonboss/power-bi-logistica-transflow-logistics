@@ -159,20 +159,19 @@ Esses elementos melhoram a experiência de exploração dos dados.
 
 # 🧱 Modelagem de Dados
 
-O modelo foi estruturado utilizando **modelagem dimensional**, com tabelas principais:
+O modelo foi estruturado utilizando **modelagem dimensional** (Star Schema):
 
 ### Tabelas Fato
 
-- pedidos
-- entregas
-- devoluções
+- pedidos realizados
 
 ### Tabelas Dimensão
 
 - clientes
 - motoristas
-- produtos
-- localização
+- destino
+- status
+- motivo de devolução
 
 Essa estrutura permite maior eficiência analítica e melhor performance do modelo.
 
