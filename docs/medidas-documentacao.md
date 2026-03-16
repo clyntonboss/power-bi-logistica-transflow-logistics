@@ -23,7 +23,7 @@ Este documento lista todas as medidas criadas no modelo Power BI, suas regras de
 VAR _Resultado =
     CALCULATE(
         [quantidade_pedidos],
-        'fLogistica'[motivo_devolucao] = "Arrependimento"
+        fPedidos_Realizados[id_motivo]="1"
     )
 
 RETURN
@@ -51,7 +51,7 @@ Descrição: Quantidade de pedidos devolvidos por motivo de arrependimento.
 VAR _Resultado =
     CALCULATE(
         [quantidade_pedidos],
-        'fLogistica'[motivo_devolucao] = "Danificado"
+        fPedidos_Realizados[id_motivo]="2"
     )
 
 RETURN
@@ -79,7 +79,7 @@ Descrição: Quantidade de pedidos devolvidos por motivo Danificado.
 VAR _Resultado =
     CALCULATE(
         [quantidade_pedidos],
-        'fLogistica'[motivo_devolucao] = "Produto Errado"
+        fPedidos_Realizados[id_motivo]="3"
     )
 
 RETURN
@@ -106,7 +106,7 @@ Descrição: Quantidade de pedidos devolvidos por motivo Produto Errado.
 
 VAR _Resultado =
     SUM(
-        'fLogistica'[quantidade_devolucao]
+        fPedidos_Realizados[quantidade_devolucao]
     )
 
 RETURN
@@ -134,7 +134,7 @@ Descrição: Total de produtos devolvidos.
 VAR _Resultado =
     CALCULATE(
         [quantidade_pedidos],
-        'fLogistica'[motivo_devolucao] = "Sem Devolução"
+        fPedidos_Realizados[id_motivo]="4"
     )
 
 RETURN
@@ -310,7 +310,7 @@ Descrição: Percentual de pedidos sem devolução.
 VAR _Resultado =
     CALCULATE(
         [quantidade_pedidos],
-        'fLogistica'[status] = "No Prazo"
+        fPedidos_Realizados[id_status]="2"
     )
 
 RETURN
@@ -369,7 +369,7 @@ Descrição: Percentual de pedidos entregues dentro do prazo.
 
 VAR _Resultado =
     SUM(
-        'fLogistica'[valor_faturamento]
+        fPedidos_Realizados[faturamento]
     )
 
 RETURN
@@ -400,7 +400,7 @@ Descrição: Soma do valor faturado de todos os pedidos.
 
 VAR _Resultado =
     DISTINCTCOUNT(
-        'fLogistica'[nome_motorista]
+        dMotoristas[id_motorista]
     )
 
 RETURN
@@ -427,7 +427,7 @@ Descrição: Quantidade distinta de motoristas registrados.
 
 VAR _Resultado =
     COUNTROWS(
-        'fLogistica'
+        fPedidos_Realizados
     )
 
 RETURN
@@ -454,7 +454,7 @@ Descrição: Total de pedidos registrados na tabela fLogistica.
 
 VAR _Resultado =
     SUM(
-        'fLogistica'[quantidade_itens]
+        fPedidos_Realizados[quantidade_itens]
     )
 
 RETURN
@@ -464,5 +464,3 @@ RETURN
     )
 ```
 Descrição: Total de produtos registrados na tabela fLogistica.
-
-
