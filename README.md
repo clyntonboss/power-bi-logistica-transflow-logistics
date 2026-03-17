@@ -44,7 +44,7 @@ O dashboard foi projetado para oferecer:
 
 ## 🧠 Metodologia Aplicada — BOSS BI Framework
 
-Este projeto foi desenvolvido utilizando o BOSS BI Framework (Business-Oriented Smart Solutions), uma metodologia estruturada para projetos de Business Intelligence e Analytics, focada na geração de valor estratégico, consistência analítica e suporte à tomada de decisão.
+> Este projeto foi desenvolvido utilizando o BOSS BI Framework (Business-Oriented Smart Solutions), uma metodologia estruturada para projetos de Business Intelligence e Analytics, focada na geração de valor estratégico, consistência analítica e suporte à tomada de decisão.
 
 ## 🔷 Fluxo do BOSS BI Framework
 
