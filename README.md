@@ -60,6 +60,9 @@ flowchart LR
     H --> I[Continuous Improvement]
     I --> A
 ```
+
+Este projeto foi desenvolvido utilizando o BOSS BI Framework (Business-Oriented Smart Solutions), uma metodologia estruturada para projetos de Business Intelligence e Análise de Dados, focada na geração de valor estratégico, consistência analítica e suporte à tomada de decisão.
+
 ## 📌 Detalhamento das Etapas
 
 ### 🔹 1. Business Understanding
