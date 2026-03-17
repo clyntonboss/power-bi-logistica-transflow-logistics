@@ -1,5 +1,5 @@
 # 📦 Projeto Logística — TransFlow Logistics
-![BOSS BI Framework](https://img.shields.io/badge/Powered%20by-BOSS%20BI%20Framework-black?style=for-the-badge&logo=powerbi&logoColor=yellow)
+![BOSS BI Framework](https://img.shields.io/badge/Powered%20by-BOSS%20BI%20Framework-black?style=for-the-badge&logo=powerbi&logoColor=yellow)  
 
 ## 📊 Visão Geral
 
@@ -11,7 +11,7 @@ A solução permite acompanhar indicadores críticos da operação, identificar 
 
 ---
 
-# 🧠 Contexto do Problema
+## 🧠 Contexto do Problema
 
 A operação logística da **TransFlow Logistics** enfrentava desafios no monitoramento de:
 
@@ -24,7 +24,7 @@ Essas limitações dificultavam a identificação rápida de problemas operacion
 
 ---
 
-# 🎯 Abordagem Estratégica
+## 🎯 Abordagem Estratégica
 
 Para resolver esses desafios, foi desenvolvida uma solução analítica utilizando **Power BI**, estruturada com **modelagem dimensional** e definição de indicadores estratégicos de performance.
 
@@ -108,7 +108,7 @@ Monitoramento contínuo e evolução da solução, adaptando-se às mudanças e 
 
 ---
 
-# 📈 Impactos e Resultados
+## 📈 Impactos e Resultados
 
 A solução permite:
 
@@ -121,9 +121,9 @@ Com isso, gestores conseguem tomar decisões mais rápidas e baseadas em dados.
 
 ---
 
-# 🧩 Estrutura do Dashboard
+## 🧩 Estrutura do Dashboard
 
-## 📊 Indicadores Principais
+### 📊 **Indicadores Principais**
 
 O dashboard apresenta três cartões principais:
 
@@ -143,9 +143,9 @@ O dashboard apresenta três cartões principais:
 
 ---
 
-# 📊 Visualizações Analíticas
+## 📊 Visualizações Analíticas
 
-## 🚚 Performance de Entregas
+### 🚚 **Performance de Entregas**
 
 Gráfico de rosca mostrando:
 
@@ -155,7 +155,7 @@ Gráfico de rosca mostrando:
 
 ---
 
-## 👥 Pedidos por Cliente
+### 👥 **Pedidos por Cliente**
 
 Gráfico de barras horizontais que apresenta:
 
@@ -164,7 +164,7 @@ Gráfico de barras horizontais que apresenta:
 
 ---
 
-## ⏱️ Atrasos por Motorista
+### ⏱️ **Atrasos por Motorista**
 
 Gráfico de barras horizontais mostrando:
 
@@ -173,7 +173,7 @@ Gráfico de barras horizontais mostrando:
 
 ---
 
-## 🔁 Motivos de Devolução por Motorista
+### 🔁 **Motivos de Devolução por Motorista**
 
 Gráfico de barras verticais empilhadas que apresenta:
 
@@ -182,7 +182,7 @@ Gráfico de barras verticais empilhadas que apresenta:
 
 ---
 
-## 📦 Distribuição de Devoluções
+### 📦 **Distribuição de Devoluções**
 
 Gráfico **Treemap** exibindo:
 
@@ -191,7 +191,7 @@ Gráfico **Treemap** exibindo:
 
 ---
 
-# 🎛️ Filtros Interativos
+## 🎛️ Filtros Interativos
 
 O dashboard permite análise dinâmica por:
 
@@ -202,7 +202,7 @@ Esses filtros permitem explorar diferentes cenários operacionais.
 
 ---
 
-# 🎨 Experiência de Navegação
+## 🎨 Experiência de Navegação
 
 O dashboard inclui recursos de usabilidade e design:
 
@@ -215,7 +215,7 @@ Esses elementos melhoram a experiência de exploração dos dados.
 
 ---
 
-# 🛠️ Stack Técnica
+## 🛠️ Stack Técnica
 
 - Microsoft Power BI
 - DAX (Data Analysis Expressions)
@@ -224,15 +224,15 @@ Esses elementos melhoram a experiência de exploração dos dados.
 
 ---
 
-# 🧱 Modelagem de Dados
+## 🧱 Modelagem de Dados
 
 O modelo foi estruturado utilizando **modelagem dimensional** (Star Schema):
 
-### Tabelas Fato
+### **Tabelas Fato**
 
 - pedidos realizados
 
-### Tabelas Dimensão
+### **Tabelas Dimensão**
 
 - clientes
 - motoristas
@@ -244,11 +244,11 @@ Essa estrutura permite maior eficiência analítica e melhor performance do mode
 
 ---
 
-# 📸 Preview do Dashboard
+## 📸 Preview do Dashboard
 
 ![Dashboard Preview](images/logistica-transflow-logistics.png)
 
-# 🗂️ Modelo de Dados
+## 🗂️ Modelo de Dados
 
 ![Modelo de Dados](images/modelo-dados-transflow-logistics.png)
 
@@ -256,7 +256,7 @@ Essa estrutura permite maior eficiência analítica e melhor performance do mode
 
 Para consultar a documentação das medidas deste projeto, suas fórmulas e descrições, acesse a **[Documentação das Medidas](docs/medidas-documentacao.md)**.
 
-# 👨‍💻 Autor
+## 👨‍💻 Autor
 
 Projeto desenvolvido como parte do meu portfólio profissional em **Business Intelligence e Data Analytics**, destacando habilidades avançadas e aplicáveis a diversos cenários analíticos:
 
