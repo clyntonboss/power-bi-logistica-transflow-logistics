@@ -36,9 +36,9 @@ O dashboard foi projetado para oferecer:
 
 ### KPIs principais
 
-- 📦 Pedidos Realizados
-- 📦 Produtos Transportados
-- 🚚 Motoristas Ativos
+- Pedidos Realizados
+- Produtos Transportados
+- Motoristas Ativos
 
 ---
 
