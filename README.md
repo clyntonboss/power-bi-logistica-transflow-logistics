@@ -52,7 +52,52 @@ flowchart LR
     H --> I[Continuous Improvement]
     I --> A
 ```
+## 📌 Detalhamento das Etapas
 
+### 🔹 1. Business Understanding
+Definição do problema analítico e alinhamento com os objetivos estratégicos do negócio, garantindo que a solução gere valor real e mensurável.
+
+---
+
+### 🔹 2. Data Understanding
+Mapeamento das fontes de dados e análise inicial para compreensão da estrutura, qualidade e granularidade das informações disponíveis.
+
+---
+
+### 🔹 3. Data Preparation
+Tratamento, limpeza e transformação dos dados, assegurando consistência, padronização e confiabilidade para análise.
+
+---
+
+### 🔹 4. Data Modeling
+Estruturação do modelo de dados utilizando boas práticas de modelagem dimensional, com foco em performance e escalabilidade.
+
+---
+
+### 🔹 5. Analytical Exploration
+Exploração dos dados para identificação de padrões, tendências, correlações e possíveis anomalias relevantes ao negócio.
+
+---
+
+### 🔹 6. Data Visualization
+Desenvolvimento de dashboards e relatórios interativos, aplicando princípios de visualização e Data Storytelling.
+
+---
+
+### 🔹 7. Insights & Decision Support
+Geração de insights acionáveis e recomendações estratégicas para apoiar a tomada de decisão baseada em dados.
+
+---
+
+### 🔹 8. Deployment
+Publicação e disponibilização da solução analítica, garantindo acesso, atualização e governança dos dados.
+
+---
+
+### 🔹 9. Continuous Improvement
+Monitoramento contínuo e evolução da solução, adaptando-se às mudanças e novas necessidades do negócio.
+
+---
 ### KPIs principais
 
 - 📦 Pedidos Realizados
