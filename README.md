@@ -51,6 +51,7 @@ flowchart LR
     G --> H[Deployment]
     H --> I[Continuous Improvement]
     I --> A
+```
 
 ### KPIs principais
 
