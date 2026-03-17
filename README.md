@@ -34,6 +34,13 @@ O dashboard foi projetado para oferecer:
 - monitoramento operacional detalhado
 - navegação intuitiva entre métricas logísticas
 
+---
+
+## 🧠 Metodologia
+
+Este projeto foi desenvolvido utilizando o **BOSS BI Framework**, garantindo consistência, qualidade analítica e geração de valor estratégico.
+
+```mermaid
 flowchart LR
     A[Business Understanding] --> B[Data Understanding]
     B --> C[Data Preparation]
