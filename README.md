@@ -195,8 +195,8 @@ Gráfico **Treemap** exibindo:
 
 O dashboard permite análise dinâmica por:
 
-- 📅 **Ano**
-- 📍 **Estado**
+- **Ano**
+- **Estado**
 
 Esses filtros permitem explorar diferentes cenários operacionais.
 
