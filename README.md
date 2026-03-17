@@ -33,6 +33,17 @@ O dashboard foi projetado para oferecer:
 - monitoramento operacional detalhado
 - navegação intuitiva entre métricas logísticas
 
+flowchart LR
+    A[Business Understanding] --> B[Data Understanding]
+    B --> C[Data Preparation]
+    C --> D[Data Modeling]
+    D --> E[Analytical Exploration]
+    E --> F[Data Visualization]
+    F --> G[Insights & Decision Support]
+    G --> H[Deployment]
+    H --> I[Continuous Improvement]
+    I --> A
+
 ### KPIs principais
 
 - 📦 Pedidos Realizados
