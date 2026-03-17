@@ -26,19 +26,27 @@ Essas limitações dificultavam a identificação rápida de problemas operacion
 
 # 🎯 Abordagem Estratégica
 
-Para resolver esses desafios, foi desenvolvida uma solução analítica utilizando **Power BI**, estruturada com **modelagem dimensional** e indicadores estratégicos de performance.
+Para resolver esses desafios, foi desenvolvida uma solução analítica utilizando **Power BI**, estruturada com **modelagem dimensional** e definição de indicadores estratégicos de performance.
 
 O dashboard foi projetado para oferecer:
 
 - leitura executiva clara
 - monitoramento operacional detalhado
-- navegação intuitiva entre métricas logísticas
+- navegação intuitiva entre métricas logísticas  
+
+### KPIs principais
+
+- 📦 Pedidos Realizados
+- 📦 Produtos Transportados
+- 🚚 Motoristas Ativos
 
 ---
 
-## 🧠 Metodologia
+## 🧠 Metodologia Aplicada — BOSS BI Framework
 
 Este projeto foi desenvolvido utilizando o **BOSS BI Framework**, garantindo consistência, qualidade analítica e geração de valor estratégico.
+
+## 🔷 Fluxo do BOSS BI Framework
 
 ```mermaid
 flowchart LR
@@ -96,13 +104,6 @@ Publicação e disponibilização da solução analítica, garantindo acesso, at
 
 ### 🔹 9. Continuous Improvement
 Monitoramento contínuo e evolução da solução, adaptando-se às mudanças e novas necessidades do negócio.
-
----
-### KPIs principais
-
-- 📦 Pedidos Realizados
-- 📦 Produtos Transportados
-- 🚚 Motoristas Ativos
 
 ---
 
