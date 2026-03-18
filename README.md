@@ -226,7 +226,7 @@ Esses elementos melhoram a experiência de exploração dos dados.
 
 ## 🧱 Modelagem de Dados
 
-###⭐ **Star Schema**
+⭐ **Star Schema**
 
 Neste projeto, foi adotado o modelo Star Schema com foco em performance e simplicidade analítica, utilizando dimensões desnormalizadas e relacionamentos diretos com a tabela fato, otimizando a execução de consultas e facilitando a construção de insights.
 
@@ -244,15 +244,15 @@ Neste projeto, foi adotado o modelo Star Schema com foco em performance e simpli
 
 Essa estrutura permite maior eficiência analítica e melhor performance do modelo.
 
+## 🗂️ Modelo de Dados
+
+![Modelo de Dados](images/modelo-dados-transflow-logistics.png)
+
 ---
 
 ## 📸 Preview do Dashboard
 
 ![Dashboard Preview](images/logistica-transflow-logistics.png)
-
-## 🗂️ Modelo de Dados
-
-![Modelo de Dados](images/modelo-dados-transflow-logistics.png)
 
 ## Documentação das Medidas
 
