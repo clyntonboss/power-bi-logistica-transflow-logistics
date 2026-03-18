@@ -226,7 +226,9 @@ Esses elementos melhoram a experiência de exploração dos dados.
 
 ## 🧱 Modelagem de Dados
 
-O modelo foi estruturado utilizando **modelagem dimensional** (Star Schema):
+###⭐ **Star Schema**
+
+Neste projeto, foi adotado o modelo Star Schema com foco em performance e simplicidade analítica, utilizando dimensões desnormalizadas e relacionamentos diretos com a tabela fato, otimizando a execução de consultas e facilitando a construção de insights.
 
 ### **Tabelas Fato**
 
