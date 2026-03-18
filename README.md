@@ -209,7 +209,7 @@ O dashboard inclui recursos de usabilidade e design:
 - 🌙 **Modo Dark (padrão)**
 - ☀️ **Modo Light (opcional)**
 - 🔎 botão **Analisar**
-- 🏠 botão para retornar à **Home**
+- 🏠 botão **Home**
 
 Esses elementos melhoram a experiência de exploração dos dados.
 
