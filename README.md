@@ -228,7 +228,11 @@ Esses elementos melhoram a experiência de exploração dos dados.
 
 ⭐ **Star Schema**
 
-Neste projeto, foi adotado o modelo Star Schema com foco em performance e simplicidade analítica, utilizando dimensões desnormalizadas e relacionamentos diretos com a tabela fato, otimizando a execução de consultas e facilitando a construção de insights.
+Neste projeto, foi adotado o modelo Star Schema como padrão de modelagem dimensional, priorizando performance analítica, simplicidade estrutural e eficiência no processamento de dados.  
+
+A utilização de dimensões desnormalizadas e relacionamentos diretos com a tabela fato reduz a complexidade de junções, melhora a compressão de dados no mecanismo VertiPaq e garante maior previsibilidade no comportamento dos filtros e medidas.
+
+Essa abordagem é amplamente recomendada em soluções de Business Intelligence, especialmente no Power BI, por proporcionar melhor desempenho e facilitar a construção de análises escaláveis e intuitivas.
 
 ### **Tabelas Fato**
 
@@ -242,11 +246,13 @@ Neste projeto, foi adotado o modelo Star Schema com foco em performance e simpli
 - status
 - motivo de devolução
 
-Essa estrutura permite maior eficiência analítica e melhor performance do modelo.
+Com isso, a solução proporciona maior visibilidade operacional, permitindo a identificação proativa de gargalos, melhoria no desempenho logístico e suporte mais assertivo à tomada de decisão estratégica.
 
 ## 🗂️ Modelo de Dados
 
-![Modelo de Dados](images/modelo-dados-transflow-logistics.png)
+![Modelo de Dados](images/modelo-dados-transflow-logistics.png)  
+
+O modelo foi projetado para suportar evolução futura, incluindo a possibilidade de integração com tabelas fato adicionais ou resolução de cenários de muitos-para-muitos por meio de tabelas bridge.
 
 ---
 
