@@ -207,7 +207,7 @@ Esses filtros permitem explorar diferentes cenários operacionais.
 O dashboard inclui recursos de usabilidade e design:
 
 - 🌙 **Modo Dark (padrão)**
-- ☀️ **Modo Light opcional**
+- ☀️ **Modo Light (opcional)**
 - 🔎 botão **Analisar**
 - 🏠 botão para retornar à **Home**
 
