@@ -36,9 +36,9 @@ O dashboard foi projetado para oferecer:
 
 ### KPIs principais
 
-- Pedidos Realizados
-- Produtos Transportados
-- Motoristas Ativos
+- Volume de Pedidos
+- volume de Produtos Transportados
+- Base de Motoristas Ativos
 
 ---
 
@@ -127,17 +127,17 @@ Com isso, gestores conseguem tomar decisões mais rápidas e baseadas em dados.
 
 O dashboard apresenta três cartões principais:
 
-### Pedidos Realizados
+### Volume de Pedidos
 
 - quantidade total de pedidos
 - percentual de entregas realizadas no prazo
 
-### Produtos Transportados
+### Volume de Produtos Transportados
 
 - quantidade total de produtos transportados
 - percentual de produtos devolvidos
 
-### Motoristas Ativos
+### Base de Motoristas Ativos
 
 - quantidade total de motoristas ativos
 
