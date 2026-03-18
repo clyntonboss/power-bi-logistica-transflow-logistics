@@ -130,12 +130,12 @@ O dashboard apresenta três cartões principais:
 ### Volume de Pedidos
 
 - quantidade total de pedidos
-- percentual de entregas realizadas no prazo
+- quantidade e percentual de entregas realizadas no prazo
 
 ### Volume de Produtos Transportados
 
 - quantidade total de produtos transportados
-- percentual de produtos devolvidos
+- quantidade e percentual de produtos devolvidos
 
 ### Base de Motoristas Ativos
 
