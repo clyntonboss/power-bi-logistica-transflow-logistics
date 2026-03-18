@@ -151,7 +151,7 @@ Gráfico de rosca mostrando:
 
 - pedidos entregues no prazo
 - pedidos entregues atrasados
-- percentual de cada categoria
+- quantidade e percentual de cada categoria
 
 ---
 
