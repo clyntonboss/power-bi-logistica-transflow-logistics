@@ -37,7 +37,7 @@ O dashboard foi projetado para oferecer:
 ### KPIs principais
 
 - Volume de Pedidos
-- volume de Produtos Transportados
+- Volume de Produtos Transportados
 - Base de Motoristas Ativos
 
 ---
