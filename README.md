@@ -241,6 +241,7 @@ Essa abordagem é amplamente recomendada em soluções de Business Intelligence,
 
 ### **Tabelas Dimensão**
 
+- calendário
 - clientes
 - motoristas
 - destino
