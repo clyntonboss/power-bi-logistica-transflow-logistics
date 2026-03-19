@@ -217,11 +217,13 @@ Esses elementos melhoram a experiência de exploração dos dados.
 
 ## 🛠️ Stack Técnica
 
+- Excel
 - Microsoft Power BI
 - Power Query
 - DAX (Data Analysis Expressions)
 - Modelagem Dimensional
 - Storytelling com Dados
+- PowerPoint
 
 ---
 
