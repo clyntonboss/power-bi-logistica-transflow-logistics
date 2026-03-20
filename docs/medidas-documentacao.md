@@ -5,8 +5,8 @@ Este documento lista todas as medidas criadas no modelo Power BI, suas regras de
 ---
 
 ## Medidas de Devolução (Absoluto)
+<br>
 
-### devolucao_arrependimento
 ```DAX
 devolucao_arrependimento = 
 
@@ -43,9 +43,8 @@ RETURN
         0
     )
 ```
-Descrição: Quantidade de pedidos devolvidos por motivo de arrependimento.
+<br>
 
-### devolucao_produto_danificado
 ```DAX
 devolucao_produto_danificado = 
 
@@ -82,9 +81,8 @@ RETURN
         0
     )
 ```
-Descrição: Quantidade de pedidos devolvidos por motivo Produto Danificado.
+<br>
 
-### devolucao_produto_errado
 ```DAX
 devolucao_produto_errado = 
 
@@ -121,9 +119,8 @@ RETURN
         0
     )
 ```
-Descrição: Quantidade de pedidos devolvidos por motivo Produto Errado.
+<br>
 
-### produtos_devolvidos
 ```DAX
 produtos_devolvidos = 
 
@@ -159,9 +156,8 @@ RETURN
         0
     )
 ```
-Descrição: Total de produtos devolvidos.
+<br>
 
-### sem_devolucao
 ```DAX
 sem_devolucao = 
 
@@ -198,13 +194,10 @@ RETURN
         0
     )
 ```
-Descrição: Quantidade de pedidos sem devolução.
-
----
 
 ## Medidas de Devolução (Percentual)
+<br>
 
-### percentual_arrependimento
 ```DAX
 percentual_arrependimento = 
 
@@ -241,9 +234,8 @@ RETURN
         0
     )
 ```
-Descrição: Percentual de pedidos devolvidos por arrependimento.
+<br>
 
-### percentual_produto_danificado
 ```DAX
 percentual_produto_danificado = 
 
@@ -280,9 +272,8 @@ RETURN
         0
     )
 ```
-Descrição: Percentual de pedidos devolvidos por Produto Danificado.
+<br>
 
-### percentual_produto_errado
 ```DAX
 percentual_produto_errado = 
 
@@ -319,9 +310,8 @@ RETURN
         0
     )
 ```
-Descrição: Percentual de pedidos devolvidos por Produto Errado.
+<br>
 
-### percentual_produtos_devolvidos
 ```DAX
 percentual_produtos_devolvidos = 
 
@@ -358,9 +348,8 @@ RETURN
         0
     )
 ```
-Descrição: Percentual de produtos devolvidos.
+<br>
 
-### percentual_sem_devolucao
 ```DAX
 percentual_sem_devolucao = 
 
@@ -397,13 +386,10 @@ RETURN
         0
     )
 ```
-Descrição: Percentual de pedidos sem devolução.
-
----
 
 ## Medidas de Entregas
+<br>
 
-### entregas_prazo
 ```DAX
 entregas_prazo = 
 
@@ -440,9 +426,8 @@ RETURN
         0
     )
 ```
-Descrição: Quantidade de pedidos entregues dentro do prazo.
+<br>
 
-### percentual_entregas_prazo
 ```DAX
 percentual_entregas_prazo = 
 
@@ -479,13 +464,10 @@ RETURN
         0
     )
 ```
-Descrição: Percentual de pedidos entregues dentro do prazo.
-
----
 
 ## Medida de Faturamento
+<br>
 
-### faturamento
 ```DAX
 faturamento = 
 
@@ -521,13 +503,10 @@ RETURN
         0
     )
 ```
-Descrição: Soma do valor faturado de todos os pedidos.
-
----
 
 ## Medidas de Contagem
+<br>
 
-### quantidade_motoristas
 ```DAX
 quantidade_motoristas = 
 
@@ -563,9 +542,8 @@ RETURN
         0
     )
 ```
-Descrição: Quantidade de motoristas ativos.
+<br>
 
-### quantidade_pedidos
 ```DAX
 quantidade_pedidos = 
 
@@ -601,9 +579,8 @@ RETURN
         0
     )
 ```
-Descrição: Total de pedidos registrados na tabela fPedidos_Realizados.
+<br>
 
-### quantidade_produtos
 ```DAX
 quantidade_produtos = 
 
@@ -639,4 +616,3 @@ RETURN
         0
     )
 ```
-Descrição: Total de produtos devolvidos na tabela fPedidos_Realizados.
