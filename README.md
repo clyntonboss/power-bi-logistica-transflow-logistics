@@ -17,7 +17,7 @@
 - 📊 [Visualizações Analíticas](#-visualizações-analíticas)
 - 🎛️ [Filtros Interativos](#-filtros-interativos)
 - 🎨 [Experiência de Navegação](#-experiência-de-navegação)
-- 🛠️ [Stack Técnica](#-stack-técnica)
+- 🛠 [Stack Técnica](#-stack-técnica)
 - 🧱 [Modelagem de Dados](#-modelagem-de-dados)
 - 📉 [Modelo de Dados](#-modelo-de-dados)
 - 📸 [Preview do Dashboard](#-preview-do-dashboard)
@@ -262,7 +262,7 @@ Esses elementos melhoram a experiência de exploração dos dados.
 
 ---
 
-## 🛠️ Stack Técnica
+## 🛠 Stack Técnica
 [← Topo](#projeto-logística--transflow-logistics)
 <br>
 
