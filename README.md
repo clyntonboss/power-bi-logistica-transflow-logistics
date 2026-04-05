@@ -22,7 +22,7 @@
 - 🗂️ [Modelo de Dados](#-modelo-de-dados)
 - 📸 [Preview do Dashboard](#-preview-do-dashboard)
 - 📄 [Documentação das Medidas](#-documentação-das-medidas)
-- 👨‍💻 [Autor](#-autor)
+- 👨‍💻 [Autor](#autor)
 
 ---
 
