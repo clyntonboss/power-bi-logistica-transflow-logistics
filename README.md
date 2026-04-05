@@ -20,7 +20,7 @@
 - 🛠️ [Stack Técnica](#-stack-técnica)
 - 🧱 [Modelagem de Dados](#-modelagem-de-dados)
 - 🗂️ [Modelo de Dados](#-modelo-de-dados)
-- 📸 [Preview do Dashboard](#-preview-do-dashboard)
+- 📸 [Preview do Dashboard](#preview-do-dashboard)
 - 📄 [Documentação das Medidas](#-documentação-das-medidas)
 - 👨‍💻 [Autor](#-autor)
 
