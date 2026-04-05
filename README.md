@@ -24,7 +24,6 @@
 - 📸 [Preview do Dashboard](#preview-do-dashboard)
 - 📄 [Documentação das Medidas](#documentação-das-medidas)
 - 👨‍💻 [Autor](#autor)
-<br>
 
 ---
 <br>
