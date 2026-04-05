@@ -7,8 +7,8 @@ Este documento lista todas as medidas criadas no modelo Power BI, suas regras de
 <br>
 
 Índice de Medidas:
-- [Devoluções - Absoluto](#medidas-de-devolução-(absoluto))
-- [Devoluções - Percentual](#medidas-de-devolução-(percentual))
+- [Devoluções - Absoluto](#medidas-de-devolução-absoluto)
+- [Devoluções - Percentual](#medidas-de-devolução-percentual)
 - [Entregas](#medidas-de-entregas)
 - [Faturamento](#medida-de-faturamento)
 - [Contagem](#medidas-de-contagem)
