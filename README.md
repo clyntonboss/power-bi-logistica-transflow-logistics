@@ -1,6 +1,5 @@
 # Projeto Logística — TransFlow Logistics
 ![BOSS BI Framework](https://img.shields.io/badge/Powered%20by-BOSS%20BI%20Framework-black?style=for-the-badge&logo=powerbi&logoColor=yellow)  
-<br>
 
 ---
 
@@ -26,7 +25,6 @@
 - 👨‍💻 [Autor](#autor)
 
 ---
-<br>
 
 ## 📊 Visão Geral
 [← Topo](#projeto-logística--transflow-logistics)
