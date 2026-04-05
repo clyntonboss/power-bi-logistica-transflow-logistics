@@ -19,7 +19,7 @@
 - 🎨 [Experiência de Navegação](#-experiência-de-navegação)
 - 🛠️ [Stack Técnica](#-stack-técnica)
 - 🧱 [Modelagem de Dados](#-modelagem-de-dados)
-- 🗂️ [Modelo de Dados](#-modelo-de-dados)
+- 📉 [Modelo de Dados](#-modelo-de-dados)
 - 📸 [Preview do Dashboard](#-preview-do-dashboard)
 - 📄 [Documentação das Medidas](#-documentação-das-medidas)
 - 👤 [Autor](#-autor)
@@ -303,7 +303,7 @@ Essa abordagem é amplamente recomendada em soluções de Business Intelligence,
 
 Com isso, a solução proporciona maior visibilidade operacional, permitindo a identificação proativa de gargalos, melhoria no desempenho logístico e suporte mais assertivo à tomada de decisão estratégica.
 
-## 🗂️ Modelo de Dados
+## 📉 Modelo de Dados
 [← Topo](#projeto-logística--transflow-logistics)
 <br>
 
