@@ -11,7 +11,7 @@ Este documento lista todas as medidas criadas no modelo Power BI, suas regras de
 - [Devoluções - Percentual](#medidas-de-devolução-percentual)
 - [Entregas](#medidas-de-entregas)
 - [Faturamento](#medida-de-faturamento)
-- [Contagem](#medidas-de-contagem)
+- [Contagens](#medidas-de-contagem)
 
 ---
 
