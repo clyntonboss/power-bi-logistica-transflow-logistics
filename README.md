@@ -15,7 +15,7 @@
 - 📈 [Impactos e Resultados](#-impactos-e-resultados)
 - 🧩 [Estrutura do Dashboard](#-estrutura-do-dashboard)
 - 📊 [Visualizações Analíticas](#-visualizações-analíticas)
-- 🎛️ [Filtros Interativos](#-filtros-interativos)
+- 🎛️ [Filtros Interativos](#-🎛️-filtros-interativos)
 - 🎨 [Experiência de Navegação](#-experiência-de-navegação)
 - 🛠️ [Stack Técnica](#-stack-técnica)
 - 🧱 [Modelagem de Dados](#-modelagem-de-dados)
