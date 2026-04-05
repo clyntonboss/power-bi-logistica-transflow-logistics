@@ -8,7 +8,7 @@
 
 - 📊 [Visão Geral](#visão-geral)
 - 🧠 [Contexto do Problema](#contexto-do-problema)
-- 🎯 [[Abordagem Estratégica](#abordagem-estratégica)
+- 🎯 [Abordagem Estratégica](#abordagem-estratégica)
 - 🧠 [Metodologia Aplicada](#metodologia-aplicada--boss-bi-framework)
 - 🔷 [Fluxo da Metodologia](#fluxo-do-boss-bi-framework)
 - 📌 [Detalhamento das Etapas](#detalhamento-das-etapas)
