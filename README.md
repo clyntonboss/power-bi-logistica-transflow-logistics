@@ -22,7 +22,7 @@
 - 🗂️ [Modelo de Dados](#-modelo-de-dados)
 - 📸 [Preview do Dashboard](#-preview-do-dashboard)
 - 📄 [Documentação das Medidas](#-documentação-das-medidas)
-- 👨‍💻 [Autor](#-autor)
+- 👨‍💻 [Autor](#autor)
 
 ---
 
@@ -325,7 +325,7 @@ O modelo foi projetado para suportar evolução futura, incluindo a possibilidad
 
 Para consultar a documentação das medidas deste projeto, suas fórmulas e descrições, acesse a **[Documentação das Medidas](docs/medidas-documentacao.md)**.
 
-## 👨‍💻 Autor
+## Autor
 [← Topo](#projeto-logística--transflow-logistics)
 <br>
 
