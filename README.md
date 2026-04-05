@@ -6,7 +6,7 @@
 Índice:
 <br>
 
-- 📊 [Visão Geral](#visão-geral)
+- 📊 [Visão Geral](#-visão-geral)
 - 🧠 [Contexto do Problema](#contexto-do-problema)
 - 🎯 [Abordagem Estratégica](#abordagem-estratégica)
 - 🧠 [Metodologia Aplicada](#metodologia-aplicada--boss-bi-framework)
