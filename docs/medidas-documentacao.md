@@ -1,10 +1,22 @@
 # Documentação das Medidas: Projeto Logística — TransFlow Logistics
 
 Este documento lista todas as medidas criadas no modelo Power BI, suas regras de negócio, dependências e retornos esperados.
+<br>
+
+[← Voltar ao Projeto](https://github.com/clyntonboss/power-bi-logistica-transflow-logistics)
+<br>
+
+Índice de Medidas:
+- [Devoluções - Absoluto](#medidas-de-devolução-(absoluto))
+- [Devoluções - Percentual](#medidas-de-devolução-(percentual))
+- [Entregas](#medidas-de-entregas)
+- [Faturamento](#medida-de-faturamento)
+- [Contagem](#medidas-de-contagem)
 
 ---
 
 ## Medidas de Devolução (Absoluto)
+[← Topo](#documentação-das-medidas-projeto-logistica--transflow-logistics)
 <br>
 
 ```DAX
@@ -196,6 +208,7 @@ RETURN
 ```
 
 ## Medidas de Devolução (Percentual)
+[← Topo](#documentação-das-medidas-projeto-logistica--transflow-logistics)
 <br>
 
 ```DAX
@@ -388,6 +401,7 @@ RETURN
 ```
 
 ## Medidas de Entregas
+[← Topo](#documentação-das-medidas-projeto-logistica--transflow-logistics)
 <br>
 
 ```DAX
@@ -466,6 +480,7 @@ RETURN
 ```
 
 ## Medida de Faturamento
+[← Topo](#documentação-das-medidas-projeto-logistica--transflow-logistics)
 <br>
 
 ```DAX
@@ -505,6 +520,7 @@ RETURN
 ```
 
 ## Medidas de Contagem
+[← Topo](#documentação-das-medidas-projeto-logistica--transflow-logistics)
 <br>
 
 ```DAX
@@ -616,3 +632,6 @@ RETURN
         0
     )
 ```
+<br>
+
+[← Voltar ao Projeto](https://github.com/clyntonboss/power-bi-logistica-transflow-logistics)
