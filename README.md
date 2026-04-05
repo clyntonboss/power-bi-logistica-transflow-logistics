@@ -17,7 +17,7 @@
 - 📊 [Visualizações Analíticas](#-visualizações-analíticas)
 - 🎛️ [Filtros Interativos](#-filtros-interativos)
 - 🎨 [Experiência de Navegação](#-experiência-de-navegação)
-- 🛠️ [Stack Técnica](#-stack-tecnica)
+- 🛠️ [Stack Técnica](#-stack-técnica)
 - 🧱 [Modelagem de Dados](#-modelagem-de-dados)
 - 🗂️ [Modelo de Dados](#-modelo-de-dados)
 - 📸 [Preview do Dashboard](#-preview-do-dashboard)
