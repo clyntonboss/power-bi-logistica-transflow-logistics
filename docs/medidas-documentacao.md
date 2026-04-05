@@ -7,15 +7,15 @@ Este documento lista todas as medidas criadas no modelo Power BI, suas regras de
 <br>
 
 Índice das Medidas:
-- [Devoluções - Absoluto](#medidas-de-devolução-absoluto)
-- [Devoluções - Percentual](#medidas-de-devolução-percentual)
-- [Entregas](#medidas-de-entregas)
-- [Faturamento](#medida-de-faturamento)
-- [Contagens](#medidas-de-contagem)
+- 🚛 [Devoluções - Absoluto](#-medidas-de-devolução-absoluto)
+- 🚛 [Devoluções - Percentual](#-medidas-de-devolução-percentual)
+- 🚚 [Entregas](#-medidas-de-entregas)
+- 💰 [Faturamento](#-medida-de-faturamento)
+- 🧮 [Contagens](#-medidas-de-contagem)
 
 ---
 
-## Medidas de Devolução (Absoluto)
+## 🚛 Medidas de Devolução (Absoluto)
 [← Topo](#documentação-das-medidas-projeto-logística--transflow-logistics)
 <br>
 
@@ -207,7 +207,7 @@ RETURN
     )
 ```
 
-## Medidas de Devolução (Percentual)
+## 🚛 Medidas de Devolução (Percentual)
 [← Topo](#documentação-das-medidas-projeto-logística--transflow-logistics)
 <br>
 
@@ -400,7 +400,7 @@ RETURN
     )
 ```
 
-## Medidas de Entregas
+## 🚚 Medidas de Entregas
 [← Topo](#documentação-das-medidas-projeto-logística--transflow-logistics)
 <br>
 
@@ -479,7 +479,7 @@ RETURN
     )
 ```
 
-## Medida de Faturamento
+## 💰 Medida de Faturamento
 [← Topo](#documentação-das-medidas-projeto-logística--transflow-logistics)
 <br>
 
@@ -519,7 +519,7 @@ RETURN
     )
 ```
 
-## Medidas de Contagem
+## 🧮 Medidas de Contagem
 [← Topo](#documentação-das-medidas-projeto-logística--transflow-logistics)
 <br>
 
