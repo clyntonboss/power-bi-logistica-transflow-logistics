@@ -1,7 +1,40 @@
 # Projeto Logística — TransFlow Logistics
 ![BOSS BI Framework](https://img.shields.io/badge/Powered%20by-BOSS%20BI%20Framework-black?style=for-the-badge&logo=powerbi&logoColor=yellow)  
 
+<br>
+
+---
+
+Índice:
+<br>
+
+- [📊 Visão Geral](#visão-geral)
+- [🧠 Contexto do Problema](#contexto-do-problema)
+- [🎯 Abordagem Estratégica](#abordagem-estratégica)
+- [🧠 Metodologia Aplicada](#metodologia-aplicada--boss-bi-framework)
+- [🔷 Fluxo da Metodologia](#fluxo-do-boss-bi-framework)
+- [📌 Detalhamento das Etapas](#detalhamento-das-etapas)
+- [📈 Impactos e Resultados](#impactos-e-resultados)
+- [🧩 Estrutura do Dashboard](#estrutura-do-dashboard)
+- [📊 Visualizações Analíticas](#visualizações-analíticas)
+- [🎛️ Filtros Interativos](#filtros-interativos)
+- [🎨 Experiência de Navegação](#experiência-de-navegação)
+- [🛠️ Stack Técnica](#stack-técnica)
+- [🧱 Modelagem de Dados](#modelagem-de-dados)
+- [🗂️ Modelo de Dados](#modelo-de-dados)
+- [📸 Preview do Dashboard](#preview-do-dashboard)
+- [📄 Documentação das Medidas](#documentação-das-medidas)
+- [👨‍💻 Autor](#autor)
+
+<br>
+
+---
+
+<br>
+
 ## 📊 Visão Geral
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 Este projeto apresenta um **dashboard de gestão logística desenvolvido em Power BI**, criado para monitorar a eficiência operacional da empresa fictícia **TransFlow Logistics**.
 
@@ -12,6 +45,8 @@ A solução permite acompanhar indicadores críticos da operação, identificar 
 ---
 
 ## 🧠 Contexto do Problema
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 A operação logística da **TransFlow Logistics** enfrentava desafios no monitoramento de:
 
@@ -25,6 +60,8 @@ Essas limitações dificultavam a identificação rápida de problemas operacion
 ---
 
 ## 🎯 Abordagem Estratégica
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 Para resolver esses desafios, foi desenvolvida uma solução analítica utilizando **Power BI**, estruturada com **modelagem dimensional** e definição de indicadores estratégicos de performance.
 
@@ -43,10 +80,14 @@ O dashboard foi projetado para oferecer:
 ---
 
 ## 🧠 Metodologia Aplicada — BOSS BI Framework
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 > Este projeto foi desenvolvido utilizando o BOSS BI Framework (Business-Oriented Smart Solutions), uma metodologia proprietária desenvolvida para estruturar projetos de Business Intelligence e Analytics, focada na geração de valor estratégico, consistência analítica e suporte à tomada de decisão.
 
 ## 🔷 Fluxo do BOSS BI Framework
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 ```mermaid
 flowchart LR
@@ -62,6 +103,8 @@ flowchart LR
 ```
 
 ## 📌 Detalhamento das Etapas
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 ### 🔹 1. Business Understanding
 Definição do problema analítico e alinhamento com os objetivos estratégicos do negócio, garantindo que a solução gere valor real e mensurável.
@@ -109,6 +152,8 @@ Monitoramento contínuo e evolução da solução, adaptando-se às mudanças e 
 ---
 
 ## 📈 Impactos e Resultados
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 A solução permite:
 
@@ -122,6 +167,8 @@ Com isso, gestores conseguem tomar decisões mais rápidas e baseadas em dados.
 ---
 
 ## 🧩 Estrutura do Dashboard
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 ### 📊 **Indicadores Principais**
 
@@ -144,6 +191,8 @@ O dashboard apresenta três cartões principais:
 ---
 
 ## 📊 Visualizações Analíticas
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 ### 🚚 **Performance de Entregas**
 
@@ -192,6 +241,8 @@ Gráfico **Treemap** exibindo:
 ---
 
 ## 🎛️ Filtros Interativos
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 O dashboard permite análise dinâmica por:
 
@@ -203,6 +254,8 @@ Esses filtros permitem explorar diferentes cenários operacionais.
 ---
 
 ## 🎨 Experiência de Navegação
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 O dashboard inclui recursos de usabilidade e design:
 
@@ -216,6 +269,8 @@ Esses elementos melhoram a experiência de exploração dos dados.
 ---
 
 ## 🛠️ Stack Técnica
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 - Excel
 - Microsoft Power BI
@@ -228,6 +283,8 @@ Esses elementos melhoram a experiência de exploração dos dados.
 ---
 
 ## 🧱 Modelagem de Dados
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 ⭐ **Star Schema**
 
@@ -253,6 +310,8 @@ Essa abordagem é amplamente recomendada em soluções de Business Intelligence,
 Com isso, a solução proporciona maior visibilidade operacional, permitindo a identificação proativa de gargalos, melhoria no desempenho logístico e suporte mais assertivo à tomada de decisão estratégica.
 
 ## 🗂️ Modelo de Dados
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 ![Modelo de Dados](images/modelo-dados-transflow-logistics.png)  
 
@@ -261,14 +320,20 @@ O modelo foi projetado para suportar evolução futura, incluindo a possibilidad
 ---
 
 ## 📸 Preview do Dashboard
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 ![Dashboard Preview](images/logistica-transflow-logistics.png)
 
-## Documentação das Medidas
+## 📄 Documentação das Medidas
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 Para consultar a documentação das medidas deste projeto, suas fórmulas e descrições, acesse a **[Documentação das Medidas](docs/medidas-documentacao.md)**.
 
 ## 👨‍💻 Autor
+[← Topo](#projeto-logística--transflow-logistics)
+<br>
 
 Projeto desenvolvido como parte do meu portfólio profissional em **Business Intelligence e Data Analytics**, destacando habilidades avançadas e aplicáveis a diversos cenários analíticos:
 
