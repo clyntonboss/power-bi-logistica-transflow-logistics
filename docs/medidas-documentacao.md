@@ -6,7 +6,7 @@ Este documento lista todas as medidas criadas no modelo Power BI, suas regras de
 [← Voltar ao Projeto](https://github.com/clyntonboss/power-bi-logistica-transflow-logistics)
 <br>
 
-Índice de Medidas:
+Índice das Medidas:
 - [Devoluções - Absoluto](#medidas-de-devolução-absoluto)
 - [Devoluções - Percentual](#medidas-de-devolução-percentual)
 - [Entregas](#medidas-de-entregas)
